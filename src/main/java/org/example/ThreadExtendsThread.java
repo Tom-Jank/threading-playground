@@ -4,6 +4,6 @@ public class ThreadExtendsThread extends Thread {
 
     @Override
     public void run() {
-        System.out.println("Extends Thread");
+        System.out.println(currentThread().getName());
     }
 }
